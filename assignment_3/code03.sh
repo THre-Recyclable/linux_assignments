@@ -19,7 +19,7 @@ col=$2
 for (( i=1; i<=row; i++ )); do
     for (( j=1; j<=col; j++ )); do
         result=$(( i * j ))
-        printf "$i*$j=$result  "
+        printf "$i*$j=$result\t "
     done
     echo ""
 done
